@@ -246,7 +246,9 @@ function getType(element) {
 		type = "organic_supermarket"
 	} else if (type == "supermarket" && element.operator_type == "cooperative") {
 		type = "cooperative_supermarket"
-	}
+	} else if (type == "library") {
+        type = "library"
+    }
 
 	return type;
 }

@@ -25,7 +25,8 @@ export var categories = {
   cosmetics: {prefix: 'Magasin de cosmétiques', iconUrl: require('../assets/img/icons/icon_cosmetics.png'), addOrganicSuffix: true, addBulkSuffix: true},
   herbalist: {prefix: 'Herboriste', iconUrl: require('../assets/img/icons/icon_herbalist.png'), addOrganicSuffix: true, addBulkSuffix: true},
   alcohol: {prefix: 'Magasin de vente d\'alcool à emporter', iconUrl: require('../assets/img/icons/icon_alcohol.png'), addOrganicSuffix: true, addBulkSuffix: true},
-  chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png'), addOrganicSuffix: true, addBulkSuffix: true}
+  chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png'), addOrganicSuffix: true, addBulkSuffix: true},
+  library: {prefix: 'Bibliothèques', iconUrl: require('../assets/img/icons/libraries.jpeg'), addOrganixSuffix: false, addBulkSuffix: false}
 };
 
 export var cacheJtbJson = require("../cache_jtb_data_simplified.json");
